@@ -18,6 +18,9 @@ public class AppAuthenticator implements Authenticator<BasicCredentials, User> {
         "user", ImmutableSet.of("USER"),
         "admin", ImmutableSet.of("ADMIN", "USER")
     );
+	
+	
+	
 
     @Override
     public Optional<User> authenticate(BasicCredentials credentials) throws AuthenticationException {
