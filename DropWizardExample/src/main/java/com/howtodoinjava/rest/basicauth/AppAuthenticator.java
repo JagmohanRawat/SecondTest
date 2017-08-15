@@ -13,6 +13,11 @@ import com.google.common.collect.ImmutableSet;
 
 public class AppAuthenticator implements Authenticator<BasicCredentials, User> {
    
+   
+   
+   
+   
+   
     private static final Map<String, Set<String>> VALID_USERS = ImmutableMap.of(
         "guest", ImmutableSet.of(),
         "user", ImmutableSet.of("USER"),
